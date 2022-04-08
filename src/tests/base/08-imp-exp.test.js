@@ -33,7 +33,7 @@ describe('Pruebas sobre el archivo 08-imp-exp.js', () => {
   });
 
   test('getHeroesByOwner debe retornar un arreglos con los héroes de Marvers', () => {
-    const owner = 'Marve';
+    const owner = 'Marvel';
     const heroes = getHeroesByOwner(owner);
 
     expect(heroes.length).toBe(2);
